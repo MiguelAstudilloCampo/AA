@@ -1,0 +1,28 @@
+table {
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    border-radius: 30px;
+    border: solid;
+}
+
+th {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px 20px;
+    border: solid;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+}
+
+.container-tabla {
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}

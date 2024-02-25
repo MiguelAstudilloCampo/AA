@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5%;
+    border: solid;
+    padding: 4%;
+}
+.Titulo{
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+input{
+    height: 5vh;
+    padding: 1%;
+}
+.Botones{
+    display: flex;
+    gap: 1rem;
+}
+button{
+    height: 6vh;
+    width: 70px;
+    background-color: beige;
+    border: none;
+}
+.b1:hover{
+    background-color: green;
+}
+.b2:hover{
+    background-color: blanchedalmond;
+}
+.b3:hover{
+    background-color: blue;
+}
+.b4:hover{
+    background-color: red;
+}
